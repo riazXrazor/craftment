@@ -1,0 +1,113 @@
+.bg-dark{
+    background-color: #000120 !important;
+    color: #fff;
+}
+.app-name{
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 30px auto;
+    border: 2px solid #fff;
+    padding: 1.2em;
+}
+
+.d-hidden{
+    visibility: hidden;
+}
+
+.deco-1{
+    height: 25%;
+    position: absolute;
+    top: 0;
+    right: 27px;
+}
+
+.deco-2{
+    height: 25%;
+    position: absolute;
+    top: -45px;
+    transform: rotateY(180deg);
+}
+
+.service{
+    font-family: 'Tangerine', cursive;
+    font-size: 2.8em;
+
+}
+
+.service ul{
+    list-style: none;
+}
+
+.service ul li{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.vintage-heading{
+ font-size: 2em;
+ text-transform: capitalize;
+ text-align: center;
+ position: relative;
+ text-align: center;
+ font-weight: bold;
+}
+.vintage-heading::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-image: url(../images/pngwing.com.png);
+    background-size: cover;
+    filter: brightness(0) invert(1);
+    background-position-y: 45%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.service-scope{
+    max-width: 65%;
+}
+
+.deliver-scope{
+    margin-top: 10px;
+}
+
+.contact-us{
+    margin-top: 100px;
+}
+.contact-us .vintage-heading::after{
+    width: 100%;
+    background-size: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 28px;
+}
+
+
+.contact-us .btn-submit{
+    font-size: 1em;
+    padding: 0.1em 2em;
+    border-radius: 54px;
+    background-color: #33209C;
+    border-color: #33209C;
+}
+
+.contact-us input , .contact-us textarea{
+    border-radius: 20px;
+    border-color: #33209C;
+    font-size: 1em;
+    font-weight: bold;
+}
