@@ -313,6 +313,35 @@
   background-color: #fff;
   border: 0;
 }
+
+@keyframes move1 {
+  from {transform: translateY(0px) translateX(0px) rotateZ(15deg);}
+  to {transform: translateY(5px) translateX(5px) rotateZ(15deg);}
+}
+
+@keyframes move2 {
+  from {transform: translateY(0px) translateX(0px) rotateY(180deg);}
+  to {transform: translateY(5px) translateX(5px) rotateY(180deg);}
+}
+
+
+.swing1 {
+  animation-name: move1;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+
+.swing2 {
+  animation-name: move2;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
 @media only screen and (max-width: 768px) {
   .deliver > div{
     width: 100% !important;
